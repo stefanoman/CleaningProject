@@ -12,4 +12,9 @@ The data set consists of:
 - x_train, y_train, x_test, y_test, subject_train and subject_test from the provided files
 - The three files that make up the training and test data sets are first merged by columns (cbind) into "trainingSet" and "testSet"
 - TrainingSet and TestSet are then row-combined to form "ComboData" using rbind
-- 
+
+## Section 2
+- find the columns with mean and std values
+- extract just these columns from "comboData" and create a new data frame called "trimmedData".  This data frame has just the columns with mean and std values, plus the activity/subject columns added in
+
+## Section 3
